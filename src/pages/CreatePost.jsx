@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // import React from "react";
 import { useNavigate } from "react-router-dom";
 import { preview } from "../assets";
@@ -42,7 +43,7 @@ const CreatePost = () => {
             labelName="Your name"
             type="text"
             name="name"
-            placeholder="Enter your name"
+            placeholder="John Doe"
             value={form.name}
             handleChange={handleChange}
           />

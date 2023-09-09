@@ -32,7 +32,7 @@ const FormField = ({
         type={type}
         id={name}
         name={name}
-        placeholder="placeholder"
+        placeholder={placeholder}
         value={value}
         onChange={handleChange}
         required
